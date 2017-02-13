@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+<canvas id="vcode" width="90" height="30"></canvas>
+<script>
+  var ctx = vcode.getContext('2d');
+  var w = vcode.width;
+  var h = vcode.height;
+  //填充一个矩形
+  ctx.fillStyle = rc(180, 230);
+  ctx.fillRect(0, 0, w, h);
+
+  //绘制5个随机字符
+  var pool = "abcdefghjklmnopqrstuvwxyz3456789";
+  ctx.textBaseline = 'bottom';
+  for (var i = 0; i < 5; i++) {
+    var x = 18 * i + 5;
+    var y = h;
+    var c = pool[rn(0, pool.length - 1)];
+    ctx.fillStyle = rc(30, 180);//颜色随机
+    ctx.font = rn(10, 30) + "px Arial";//大小随机
+    var deg = rn(-6, 6);//文本旋转
+    ctx.rotate(deg * Math.PI / 180);
+    ctx.translate(x, y);
+    ctx.fillText(c, 0, 0);
+    ctx.rotate(-deg * Math.PI / 180);
+    ctx.translate(-x, -y);
+  }
+
+  //绘制5条干扰线
+
+  for (var i = 0; i < 5; i++) {
+    ctx.beginPath();
+    ctx.moveTo(rn(0, w), rn(0, h));
+    ctx.lineTo(rn(0, w), rn(0, h));
+    ctx.strokeStyle = rc(30, 180);
+    ctx.stroke();
+  }
+  //绘制50个杂色点-半径为1的圆
+  for (var i = 0; i < 5; i++) {
+    ctx.beginPath();
+    ctx.arc(rn(0, w), rn(0, h), 1, 0, Math.PI*2);
+    ctx.fillStyle=rc(30,230);
+    ctx.fill();
+  }
+
+  //获取一个指定范围的随机数
+  function rn(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+  //获取一个随机范围内地额颜色
+  function rc(min, max) {
+    var r = rn(min, max);
+    var g = rn(min, max);
+    var b = rn(min, max);
+    return `rgb(${r},${g},${b})`;
+  }
+  $('#vcode').click(function(){
+    $.ajax({
+      type:'GET',
+      url:'',
+      success:function(){
+
+      }
+    });
+  });
+
+</script>
+</body>
+</html>

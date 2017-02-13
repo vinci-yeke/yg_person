@@ -1,0 +1,545 @@
+/*通用文字为蓝色,放上去变红色*/
+.font-color {
+    color: #3366CC;
+}
+
+.font-color:hover {
+    color: #e3493c;
+}
+
+/*-----------------------------------*/
+#bread_crumb {
+    margin: 10px auto;
+}
+
+#product-intro {
+    width: 1190px;
+    min-height: 605px;
+}
+
+/*左边的*/
+#left-img {
+    width: 482px;
+
+}
+
+.left-img-big {
+    border: 1px solid #ddd;
+
+}
+
+.left-img-big img {
+    vertical-align: bottom;
+}
+
+.img_small {
+    margin-top: 20px;
+}
+
+.img_small li {
+    margin-left: 3px;
+    padding-top: 5px;
+    width: 66px;
+    height: 66px;
+    float: left;
+}
+
+.img_small li img {
+    /*border:1px solid transparent;*/
+    padding: 2px;
+
+}
+
+/*选择框带小箭头*/
+.img_small li:hover img {
+    border: 1px solid #e3493c;
+}
+
+.triangle:hover {
+    background: url('../images/new_dpico.png') no-repeat 29px -257px;
+}
+
+.img_small li:first-child {
+    margin-left: 0;
+}
+
+.product-noSpan {
+    border: 1px solid transparent;
+    margin: 5px 0;
+}
+
+.product-noShare i {
+    position: relative;
+    right: 3px;
+    width: 20px;
+    height: 1em;
+    background: url('../images/new_dpico.png') no-repeat 4px -143px;
+}
+
+.product-noShare:hover, .product-collect:hover {
+    color: #e4393c;
+}
+
+.product-collect i {
+    position: relative;
+    right: 3px;
+    width: 20px;
+    height: 1em;
+    background: url('../images/new_dpico.png') no-repeat 4px -165px;
+}
+
+/*右边的*/
+#right-detail {
+    width: 490px;
+    margin-left: 10px;
+
+}
+
+/*商品详情的购物列表*/
+#right-detail p, #right-detail h3 {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+#right-detail h3 {
+    margin: 10px 0;
+    line-height: 1.5em;
+    cursor: pointer;
+}
+
+.pro-more {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.price_area {
+    margin: 30px 0;
+
+}
+
+.price_area b {
+    margin: 0 5px;
+    color: #e4393c;
+    font-size: 2.0em;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.price_area span {
+
+    color: #9B9B9B;
+    text-decoration: line-through;
+}
+
+.price_gogo {
+    padding-left: 10px;
+}
+
+.price_gogo i {
+    font-style: normal;
+    display: inline-block;
+    padding: 1px 0 1px 20px;
+    color: #fff;
+    width: 100px;
+    background: url("../images/new_dpico.png") no-repeat 0 -237px;
+}
+
+.price_gogo b {
+    color: #e4393c;
+}
+
+.price_gogo span {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.pro-grade {
+
+}
+
+.pro-grade a {
+    display: inline-block;
+    width: 62px;
+    height: 1em;
+    margin: 0 2px;
+    background: url("../images/star_show_small.png") no-repeat 0 -100px;
+}
+
+.pro-grade span:hover {
+    color: #e4393c;
+}
+
+.pro-grade .pro-gradePride {
+    cursor: pointer;
+}
+
+.pro-grade span.pro-result {
+    float: right;
+    cursor: pointer;
+    padding-left: 25px;
+    background: url("../images/new_dpico.png") no-repeat 0 -187px;
+}
+
+.pro-grade i:hover {
+    color: #e4393c;
+}
+
+#pro-detail {
+    padding: 10px 5px;
+    background-color: #F8F8F8;
+}
+
+.pro-color span {
+    vertical-align: top;
+}
+
+.pro-color a {
+    width: 46px;
+    height: 46px;
+    border: 1px solid #ddd;
+    padding: 2px;
+    margin: 0 0 5px 5px;
+    display: inline-block;
+}
+
+.pro-color a {
+    position: relative;
+
+}
+
+.pro-color a:hover {
+    border: 1px solid #e4393c;
+}
+
+.pro-color a:hover i {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 10px;
+    background: url("../images/new_dpico.png") no-repeat 87px -123px;;
+
+}
+
+.pro-size i {
+    font-style: normal;
+    color: #000;
+    cursor: pointer;
+    font-size: .8em;
+    text-align: center;
+    width: 35px;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    padding: 1px 3px;
+
+}
+
+.pro-size i:hover {
+    color: #e3493c;
+    border: 1px solid #e3493c;
+}
+
+.pro-num {
+}
+
+.pro-num span {
+    margin-right: 10px;
+}
+
+.pro-num i {
+    font-style: normal;
+    line-height: .8em;
+    vertical-align: middle;
+    text-align: center;
+    height: 1em;
+    display: inline-block;
+    color: #000;
+    font-size: .5em;
+    width: 1.1em;
+    border: 1px solid #aaa;
+}
+
+.pro-num input {
+    text-align: center;
+    margin: 0 5px;
+    padding: 0 5px;
+    width: 30px;
+}
+
+.pro-num span.num-choise {
+    margin-left: 10px;
+}
+
+.pro-num strong {
+    color: #e3493c;
+}
+
+.pro-btn a {
+    border: 1px solid #E60012;
+    width: 120px;
+    text-align: center;
+    line-height: 37px;
+    padding: 0 10px;
+    height: 37px;
+    font-weight: bold;
+}
+
+.pro-btn a:first-child {
+    font-size: 1.2em;
+    color: #e3493c;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+.pro-btn a:last-child {
+    background-color: #E60012;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.pro-promise b {
+    color: #aaa;
+}
+
+.pro-promise a {
+    margin-right: 5px;
+    padding: 2px 0 2px 20px;
+}
+
+.pro-promise a i {
+    position: relative;
+    top: 7px;
+    right: 2px;
+    display: inline-block;
+    width: 20px;
+    height: 22px;
+}
+
+.pro-promise a i.promise1 {
+
+    background: url("../images/new_dpico.png") no-repeat 0 -211px;
+}
+
+.pro-promise a i.promise2 {
+
+    background: url("../images/new_dpico.png") no-repeat -22px -211px;
+}
+
+.pro-promise a i.promise3 {
+
+    background: url("../images/new_dpico.png") no-repeat -44px -211px;
+}
+
+/*购物详情分类*/
+#good-lc {
+    width: 80%;
+    margin-top: 50px;
+    float: left;
+}
+
+.good-bar ul {
+    overflow: hidden;
+    border-bottom: 2px solid #CC0011;
+
+}
+
+.good-bar ul li:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.good-bar ul li {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background: #fff;
+    color: #aaa;
+    text-align: center;
+    width: 100px;
+    padding: 5px 10px;
+    float: left;
+
+}
+
+.good-bar ul li.good-bar-hover {
+    background: #CC0011;
+    color: #fff;
+}
+
+.detail_table {
+    margin-top: 10px;
+}
+
+.detail_table table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detail_table table > tbody > tr > td {
+    padding: 0 1px;
+}
+
+.detail_table table > tbody > tr > td:first-child,
+.detail_table table > tbody > tr > td:nth-child(3) {
+    text-align: right;
+    padding-right: 10px;
+    width: 10%;
+    background: #F2F2F2;
+
+}
+
+.detail_table table > tbody > tr > td:nth-child(2),
+.detail_table table > tbody > tr > td:last-child {
+    text-align: left;
+    padding-left: 5px;
+    width: 20%;
+
+}
+
+#good-lc .size_area table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#good-lc .size_area > h4 {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 10px;
+}
+
+#good-lc .size_area table caption {
+    background: #DDDDDD;
+    padding: 5px;
+}
+
+#good-lc .size_area table tr td {
+    background: #F2F2F2;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: .8em;
+    width: 10%;
+}
+
+#pro-detail .pro-size-ruler {
+    position: relative;
+    padding: 3px 0 3px 20px;
+    left: 295px;
+    background: url("../images/detail_size_icon.png") no-repeat;
+}
+
+#pro-detail .pro-size-ruler:hover {
+    color: #e3493c;
+}
+
+/*图片展示*/
+.pro-img-show {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*右边商品推荐*/
+.product-more {
+    margin-left: 20px;
+    margin-top: 50px;
+    float: left;
+}
+
+.product-more ul {
+    width: 183px;
+    border: 1px solid #ddd;
+}
+
+.product-more ul li {
+    font-size: .8em;
+    padding: 5px 3px;
+
+}
+
+.product-more ul li p {
+    margin: 4px 0;
+}
+
+.product-more ul li b {
+    color: #CC0011;
+}
+
+div.yg-shopping-tag {
+    position: fixed;
+    bottom: 0px;
+    height: 80px;
+    width: 100%;
+
+}
+
+div.yg-shopping-tag .shopping-tat-left {
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    background: #D1D1D1;
+    left: 0;
+    top: 0px;
+    padding-right: 30px;
+
+}
+div.yg-shopping-tag .shopping-tat-left i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 60px;
+    background: url("../images/bot_buy_sprite.gif") no-repeat 0 0;
+}
+div.yg-shopping-tag .shopping-tat-center {
+    position: relative;
+    height: 50px;
+    width: 60%;
+    background: #FFFDF4;
+    margin: 0 auto;
+    top: 12px;
+    overflow: hidden;
+}
+div.yg-shopping-tag .shopping-tat-center p{
+    margin-top: 20px;
+}
+.shopping-tat-center .pro-num{
+    margin-left: 300px;
+}
+div.yg-shopping-tag .pro-btn-little a{
+    width: 100px;
+    height:24px;
+    font-size: .8em;
+    border: 1px solid #e3493c;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 3px;
+}
+
+div.yg-shopping-tag .pro-btn-little a:first-child {
+    margin-left: 10px;
+    color: #e3493c;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+div.yg-shopping-tag .pro-btn-little a:last-child {
+    background:url('../images/new_dpico.png') no-repeat -10px 0;
+    color: #fff;
+}
+div.yg-shopping-tag .shopping-tat-right {
+    position: absolute;
+    background: #D1D1D1;
+    width: 20%;
+    right: 0;
+    height: 50px;
+    padding-left: 30px;
+    top: 0px;
+}
+
+div.yg-shopping-tag .shopping-tat-right  i{
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background: url("../images/bot_buy_sprite.gif") no-repeat -30px 0;
+}
+

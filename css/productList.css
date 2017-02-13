@@ -1,0 +1,161 @@
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container > .bread > p {
+  margin: 20px 0;
+  padding-left: 10px;
+}
+
+.container > .bread > p > span {
+
+  padding: 0 8px;
+}
+
+/*.ygFilterCon {*/
+/*border: 1px solid #ddd;*/
+/*}*/
+
+.ygFilterCon > dl {
+  width: 1200px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.ygFilterCon > dl > dt, .ygFilterCon > dl > dd {
+  float: left;
+  line-height: 30px;
+}
+
+.ygFilterCon > dl > dt {
+  text-align: right;
+  width: 100px;
+  padding: 8px 20px 0 0;
+}
+
+.ygFilterCon > dl > dd {
+  padding: 8px 10px 0 0;
+}
+
+.ygFilterCon > dl > dd > ul > li {
+  float: left;
+  width: 200px;
+}
+
+div.bd {
+  margin-top: 20px;
+
+}
+
+.bd > ul {
+  width: 100%;
+  padding: 0 15px;
+  display: inline-block;
+  border: 1px solid #ddd;
+}
+
+.bd > ul > li {
+  font-size: .8em;
+  line-height: 30px;
+  float: left;
+  margin: 5px 8px;
+  padding: 0 10px;
+}
+
+.bd > ul > li:nth-child(3) {
+  background: #e4393c;
+}
+
+.bd > ul > li:nth-child(3) {
+  color: #eee;
+}
+
+.bd > ul li:nth-child(9) {
+  float: right;
+
+}
+
+.bd > ul > li:nth-child(10) {
+  float: right;
+}
+
+.bd > ul > li:nth-child(11) {
+  float: right;
+}
+
+.bd > ul > li:nth-child(7) {
+  color: #e3493c;
+}
+
+.bd > ul > li:last-child {
+  float: right;
+}
+
+.bd-input {
+  width: 40px;
+}
+
+/*产品样式*/
+
+#productList {
+  height: 360px;
+}
+
+#productList .sort_pic {
+  width: 240px;
+  height: 343px;
+  float: left;
+}
+
+#productList .sort_pic ul {
+  float: left;
+  width: 240px;
+  height: 300px;
+  margin-left: 2px;
+  margin-top: 20px;
+  padding: 2px;
+}
+
+#productList .sort_pic > ul > li:nth-child(1) {
+  border: 1px solid #ddd;
+}
+
+#productList .sort_pic > ul > li:nth-child(1) img {
+  width: 230px;
+}
+
+#productList .sort_pic > ul > li:nth-child(2) {
+  border: 1px solid #ddd;
+  padding-left: 4px;
+  background: #F0A1A1;
+  color: #ffffff;
+}
+
+#productList .sort_pic > ul > li:nth-child(3) {
+  height: 40px;
+}
+
+#productList .sort_pic > ul > li:nth-child(4) b {
+  color: #E60012;
+  font-size: 1.2em;
+  padding-right: 10px;
+}
+
+#productList .sort_pic > ul > li:nth-child(4) i {
+  text-decoration: line-through;
+  font-style: normal;
+}
+
+.brandHotList > h4 {
+  padding-top: 10px;
+  border-top:1px solid #ddd;
+  margin-top: 50px;
+}
+
+.brandHotList > p > a {
+  margin: 20px 10px  20px 0;
+}
+
+

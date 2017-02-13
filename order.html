@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>优购购物网站</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/comment.css"/>
+    <link rel="stylesheet" href="css/order.css"/>
+</head>
+<body>
+
+<header></header>
+<div class="modal hide"></div>
+
+<div class="container">
+    <p class="yg-logo lf"><i></i>
+    <ul class="yg-order-path lf">
+        <li class="lf">我的购物车 <i></i><b></b></li>
+        <li class="lf">提交订单中心 <i></i><b></b></li>
+        <li class="lf">成功提交订单</li>
+    </ul>
+    </p>
+
+
+    <div class="order-detail">
+        <table>
+            <thead>
+            <tr>
+                <th><input type="checkbox"/>全选</th>
+                <th>商品名称</th>
+                <th>颜色尺码</th>
+                <th class="w110">单价</th>
+                <th class="w110">数量</th>
+                <th class="w110">小计(元)</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><input class="order-choose" type="checkbox" value=""/><img src="images/100494260_01_t.jpg" alt=""/>
+                </td>
+                <td class="w300">adidas阿迪三叶草2016年新款男子三叶草系列梭织外套AZ3993</td>
+                <td class="w110 h100">颜色：<span>蓝色</span><br/>
+                    尺码：<span>L</span></td>
+                <td class="w110 h100">355</td>
+                <td class="w110 h100"><a href="">-</a><input type="text" class="order-detail-num" value="1"/><a href="">+</a>
+                </td>
+                <td class="order-price w110 h100 ">572</td>
+                <td><a href="">删除</a></td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <td class="h100">
+                <a href="javascript:;" class="order-buyContinue">继续购物</a>
+            </td>
+            <td class="h60" colspan="3"><a href="#">清空购物车</a></td>
+            <td class="h60" >总计:￥ <b>579</b></td>
+            <td class="h60" colspan="2">
+                <a class="order-payBtn">去结算</a>
+            </td>
+            </tfoot>
+
+
+        </table>
+    </div>
+</div>
+<div class="yg-order-footer">
+    <p>Copyright © 2011-2014
+        Yougou Technology Co., Ltd.
+        粤ICP备09070608号-4
+        增值电信业务经营许可证：
+        粤 B2-20090203</p></div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/comment.js"></script>
+</body>
+</html>
